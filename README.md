@@ -1,3 +1,5 @@
 # Face-recognition-using-lstm-and-cnn
 The specific composition of the two network architectures we designed is described. For the first one, a layer of attention mechanism is added to the CNN-LSTM network. For the other, a two-layer attention mechanism is introduced.
-
+# CNN-LSTM Facial Expression Recognition Network Model Incorporating an Attention Mechanism
+When the RNN is employed for facial expression classification tasks, the results of average sampling according to time steps are used as classification features. However, the average sampling method blurs the focus and cannot expand the advantages of valuable information. The attention mechanism can make the network focus on effective information, so it is employed to selectively process the information input to the classifier to optimize the classification performance of the neural network. The CNN-LSTM facial expression recognition network model incorporating an attention mechanism (CNN-ALSTM) proposed in this section mainly includes four parts: CNN local feature extraction layer, LSTM feature learning layer, global feature attention layer, and classification layer. The CNN-ALSTM model structure diagram is shown in Figure 1.
+![7450637 fig 001](https://github.com/Innovativeanku/Face-recognition-using-lstm-and-cnn/assets/130054612/d7635b76-305e-4d5c-ad9c-fdf8e5b9d4cb)
